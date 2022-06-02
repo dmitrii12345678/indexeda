@@ -12,6 +12,9 @@ button {
 header {
     max-width: 1190px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0 20px;
 }
 .logo {
     width: 130px;
@@ -81,7 +84,7 @@ header {
     margin-bottom: 32px;
 }
 .slider-bg1 {
-    background-image: linear-gradient(90deg, rgba(14, 14, 14, 0.43) 43.17%, rgba(0, 0, 0, 0) 100%)url(images/slider-bg1.png);
+    background-image:url(images/slider-bg1.png) linear-gradient(90deg, rgba(14, 14, 14, 0.43) 43.17%, rgba(0, 0, 0, 0) 100%);
 }
 .slider-item {
     background-repeat: no-repeat;
@@ -99,8 +102,16 @@ header {
     padding: 15px 53px;
 }
 .slider-bg2 {
-    background-image: linear-gradient(90deg, rgba(14, 14, 14, 0.43) 43.17%, rgba(0, 0, 0, 0) 100%) url(images/slider-bg2.png);
+    background-image:url(images/slider-bg2.png) linear-gradient(90deg, rgba(14, 14, 14, 0.43) 43.17%, rgba(0, 0, 0, 0) 100%) ;
 }
 .slider-bg3 {
-    background-image:linear-gradient(90deg, rgba(14, 14, 14, 0.43) 43.17%, rgba(0, 0, 0, 0) 100%) url(images/slider-bg3.png);
+    background-image:url(images/slider-bg3.png) linear-gradient(90deg, rgba(14, 14, 14, 0.43) 43.17%, rgba(0, 0, 0, 0) 100%) ;
+}
+.user-nav {
+    display: flex;
+    gap: 31px;
+}
+.slider {
+    max-width: 1190px;
+    margin: 0 auto;
 }
