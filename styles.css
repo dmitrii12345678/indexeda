@@ -220,6 +220,84 @@ header {
 }
 .zozh {
     background: #D0FD89;
+    width: 66px;
+    height: 33px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #49494F;
+
+}
+.veget {
+    background: #AEBC41;
+    width: 110px;
+    height: 33px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.meat {
+    width: 95px;
+    height: 33px;
+    background: #B86B78;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.bird {
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 83px;
+    height: 33px;
+    background: #D68334;
+}
+.fish {
+    width: 95px;
+    height: 33px;
+    background: #CD6255;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.child {
+    font-weight: 500;
+    font-size: 20px;
+    color: #49494F; 
+    width: 101px;
+    height: 33px;
+    background: #FFFDBF;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.parents {
+    font-weight: 500;
+    font-size: 20px;
+    color: #49494F;
+    width: 125px;
+    height: 33px;
+    background: #F6FDC8;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.holiday {
+    width: 147px;
+    height: 33px;
+    background: #FEF7FE;
+    font-weight: 500;
+    font-size: 20px;
+    color: #49494F;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 .catalog {
     width: 100%;
