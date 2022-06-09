@@ -435,8 +435,44 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;    
+    gap: 37px;
 }
 .benefits h2 {
     font-weight: 500;
     font-size: 32px;
+}
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #f6f6f6;
+}
+.footer-content {
+    max-width: 1191px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info {
+    display: flex;
+    gap: 50px;
+}
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+    align-self: center;
+}
+footer a {
+    color: #000;
+}
+.social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-info img {
+    width: 101px;
+    height: 101px;
 }
